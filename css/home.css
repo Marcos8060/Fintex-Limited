@@ -11,6 +11,12 @@ h1{
 }
 
 /* navbar */
+.navbar{
+    background: transparent;
+}
+.navbar a{
+    color: white;
+}
 li a{
     font-weight: 700;
     text-transform: uppercase;
@@ -55,12 +61,22 @@ span.estate{
 }
 .carousel-caption{
     bottom: 200px;
-    padding-left: 100px;
-    padding-right: 100px;
 }
 .carousel-caption h5{
     font-size: 50px;
     font-weight: 700;
+}
+.btn{
+    background: crimson;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.btn:hover{
+    color: white;
+    font-size: 20px;
+    transition: 2s;
+    display: inline-block;
 }
 
 /* End hero section */

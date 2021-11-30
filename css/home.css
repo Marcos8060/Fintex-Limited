@@ -9,7 +9,9 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
-
+body{
+    background: #E5E5E5;
+}
 /* navbar */
 .navbar-brand{
     font-weight: bold;

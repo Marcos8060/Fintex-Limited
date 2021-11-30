@@ -118,18 +118,40 @@ span.estate{
     color: transparent;
     margin-top: -7px;
 }
+.card img{
+    cursor: pointer;
+}
+.content img:hover{
+    cursor: pointer;
+}
 .info{
     display: flex;
     justify-content: space-between;
-    font-weight: 600;
+    font-weight: 500;
     border-bottom: 1px solid gray;
 }
 .location{
     display: flex;
     justify-content: space-between;
     font-size: 13px;
-    font-weight: 700;
+    font-weight: 500;
 }
 .card{
-    box-shadow: 2px 1px 3px 4px gray;
+    box-shadow: 0px 0px 4px 2px gray;
+}
+.listing h5{
+    font-weight: 700;
+}
+.listing span{
+    color: crimson;
+}
+.underline{
+    border-bottom: 1px solid gray;
+    width: 30%;
+}
+/* CTO */
+.cto_section {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('./Images/cto1.jpg');
 }

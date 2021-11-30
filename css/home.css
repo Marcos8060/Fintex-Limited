@@ -186,6 +186,45 @@ span.estate{
     z-index: -1;
 }
 /* footer section */
+.footer_section{
+    background: #24272F;
+    color: white;
+    padding: 10px;
+}
+.footer_section h6{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: blue;
+    padding-top: 20px;
+}
+.footer_section li::marker{
+    font-size: 25px;
+}
+.icons{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
 .icons img{
     height: 30px;
+    margin: 5px;
+    text-align: center;
 }
+.footer_section input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #E5E5E5;
+}
+.footer_section button{
+    width: 100%;
+    text-align: center;
+    background: transparent;
+    border-color: blue;
+    height: 38px;
+    color: white;
+    text-transform: uppercase;
+}
+.footer_section button:hover{
+    background: blue;
+    transition: 2s;
+}
+

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Poppins:wght@200;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Poppins:wght@200;600&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Poppins:wght@200;600;700&display=swap');
 
 p,a{
@@ -9,3 +9,20 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+/* hero section */
+span.logo{
+    color: crimson;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+span.r{
+    color: crimson;
+    font-size: 16px;
+    font-weight: bold;
+}
+span.estate{
+    color: crimson;font-weight: bold;
+
+}
+/* End of hero section */

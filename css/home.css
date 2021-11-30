@@ -11,11 +11,24 @@ h1{
 }
 
 /* navbar */
+.navbar-brand{
+    font-weight: bold;
+}
 .navbar{
     background: transparent;
 }
 .navbar a{
     color: white;
+}
+.navbar ul{
+    margin-left: 200px;
+}
+.navbar ul a{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.navbar ul a:hover{
+    color: crimson;
 }
 li a{
     font-weight: 700;
@@ -80,3 +93,7 @@ span.estate{
 }
 
 /* End hero section */
+.container-fluid{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}

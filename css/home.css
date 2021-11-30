@@ -198,7 +198,7 @@ span.estate{
     padding-top: 20px;
 }
 .footer_section li::marker{
-    font-size: 25px;
+    font-size: 30px;
 }
 .icons{
     display: grid;
@@ -208,6 +208,7 @@ span.estate{
     height: 30px;
     margin: 5px;
     text-align: center;
+    cursor: pointer;
 }
 .footer_section input{
     margin-top: 10px;
@@ -226,5 +227,6 @@ span.estate{
 .footer_section button:hover{
     background: blue;
     transition: 2s;
+    font-weight: 700;
 }
 

@@ -153,5 +153,33 @@ span.estate{
 .cto_section {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
-    background-image: url('./Images/cto1.jpg');
+    background-image: url(/Images/cto1.jpg);
+    height: 70vh;
+    background-size: 100% 100%;
+    position: relative;
+    color: white;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cto_section h2{
+    font-weight: 700;
+}
+.cto_section p{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.cto_section::before{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: black;
+    opacity: 0.3;
+    z-index: -1;
 }

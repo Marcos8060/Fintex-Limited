@@ -96,20 +96,32 @@ span.estate{
 
 /* End hero section */
 /* Gallery section */
+.list{
+    color: crimson;
+    font-weight: 600;
+}
+.filter{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.filter span{
+    color: crimson;
+    font-weight: 600;
+}
+.category{
+    border-bottom: 2px solid gray;
+    width: 45%;
+    margin: auto;
+    margin-bottom: 20px;
+}
 .container-fluid{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
-/* .card-title{
-    margin-top: -45px;
-    color: white;
-    font-weight: 700;
-} */
 .content{
     margin-top: -45px;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
 }
 .price{
     color: white;

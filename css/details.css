@@ -1,3 +1,15 @@
 .container-fluid {
-  background-image: url(./css/pict.jpeg);
+  background-image: url(./pict.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image {
+  margin-top: 200px;
+  padding: 20rem;
+}
+
+.container-mt-5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

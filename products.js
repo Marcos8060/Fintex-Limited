@@ -242,5 +242,14 @@ const products = [
         rooms: 5,
         agent: 'George',
         size: 253
-    }
+    },
+    {
+        id: 27,
+        imgSrc : 'https://i.ytimg.com/vi/4QlH5EjzXdk/maxresdefault.jpg',
+        location: 'Spring Valley',
+        price: '73,000,000',
+        rooms: 5,
+        agent: 'George',
+        size: 253
+    },
 ]

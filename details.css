@@ -1,5 +1,13 @@
 /* footer */
+.container-fluid {
+  background-color: #252933;
+  color: #3174cc;
+}
+
 .items {
   display: flex;
   justify-content: space-between;
+}
+.col-2 ul li {
+  list-style: none;
 }

@@ -93,7 +93,43 @@ span.estate{
 }
 
 /* End hero section */
+/* Gallery section */
 .container-fluid{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
+}
+/* .card-title{
+    margin-top: -45px;
+    color: white;
+    font-weight: 700;
+} */
+.content{
+    margin-top: -45px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.price{
+    color: white;
+    font-weight: 600;
+}
+.content img{
+    height: 30px;
+    color: transparent;
+    margin-top: -7px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    border-bottom: 1px solid gray;
+}
+.location{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 700;
+}
+.card{
+    box-shadow: 2px 1px 3px 4px gray;
 }

@@ -9,7 +9,13 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
-/* hero section */
+
+/* navbar */
+li a{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+}
 span.logo{
     color: crimson;
     font-family: 'Poppins', sans-serif;
@@ -25,4 +31,4 @@ span.estate{
     color: crimson;font-weight: bold;
 
 }
-/* End of hero section */
+/* End of navbar section */

@@ -66,7 +66,7 @@ const products = [
     {
         id: 7,
         imgSrc : '/Images/img8.jpg',
-        location: 'kitengela',
+        location: 'Kitengela',
         price: 2200000,
         rooms: 3,
         agent: 'Erick',
@@ -143,5 +143,77 @@ const products = [
         rooms: 6,
         agent: 'Erick',
         size: 232
+    },
+    {
+        id: 16,
+        imgSrc : '/Images/4.jpg',
+        location: 'Muthaiga',
+        price: 25000000,
+        rooms: 4,
+        agent: 'Erick',
+        size: 190
+    },
+    {
+        id: 17,
+        imgSrc : '/Images/7.jpg',
+        location: 'Muthaiga',
+        price: 43000000,
+        rooms: 6,
+        agent: 'Vanessa',
+        size: 127
+    },
+    {
+        id: 18,
+        imgSrc : '/Images/11.jpg',
+        location: 'Spring Valley',
+        price: 29000000,
+        rooms: 7,
+        agent: 'Marcos',
+        size: 111
+    },
+    {
+        id: 19,
+        imgSrc : '/Images/9.jpg',
+        location: 'Spring Valley',
+        price: 50000000,
+        rooms: 3,
+        agent: 'George',
+        size: 176
+    },
+    {
+        id: 20,
+        imgSrc : '/Images/9.jpg',
+        location: 'Lavington',
+        price: 12000000,
+        rooms: 9,
+        agent: 'Vanessa',
+        size: 130
+    },
+    {
+        id: 21,
+        imgSrc : '/Images/9.jpg',
+        location: 'Westlands',
+        price: 33000000,
+        rooms: 4,
+        agent: 'Marcos',
+        size: 175
+    },
+    {
+        id: 22,
+        imgSrc : '/Images/9.jpg',
+        location: 'Karen',
+        price: 34000000,
+        rooms: 5,
+        agent: 'Erick',
+        size: 177
+    },
+    {
+        id: 23,
+        imgSrc : '/Images/9.jpg',
+        location: 'Kiambu Road',
+        price: 22000000,
+        rooms: 4,
+        agent: 'Erick',
+        size: 141
     },
 ]

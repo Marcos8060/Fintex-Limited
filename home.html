@@ -24,7 +24,7 @@
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand text-uppercase" href="#"
-          >Fintex <span class="r">R</span>eal
+          >Fintex Real
           <span class="estate">Estate</span></a
         >
         <button
@@ -47,7 +47,7 @@
               <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link" href="#">Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
@@ -143,22 +143,54 @@
       </button>
     </div>
     <!-- End of Hero section -->
+    <!-- Services section -->
+    <div class="container-fluid">
+      <h4 class="text-center serve mt-5">Our Services.</h4>
+      <div class="container fluid">
+      <div class="row services">
+          <div class="col-md-4 text-center mt-5">
+            <img class="img-fluid draw" src="./Images/life.svg"/>
+            <h4>Lifestyle</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, deleniti.</p>
+          </div>
+          <div class="col-md-4 text-center mt-5">
+            <img class="img-fluid draw" src="./Images/sell.svg"/>
+            <h4 class="mt-5">Buy/Sell</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, deleniti.</p>
+          </div>
+          <div class="col-md-4 text-center mt-5">
+            <img class="img-fluid draw" src="./Images/consult.svg"/>
+            <h4 class="mt-4">Consultation</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, deleniti.</p>
+          </div>
+      </div>
+     </div>
+    </div>
+    <!-- End of services section -->
     <!-- Gallery Section -->
-    <!-- filter section -->
     <div class="container-fluid mt-4 filter">
+      <h3 class="text-center mb-4">Our <span class="gallery">Gallery</span></h3>
       <h5 class="text-center category"><span>Filter</span> based on the following <span>Categories.</span></h5>
       <div class="container">
+        <div class="color">
       <div class="row">
+        <!-- Filter section -->
         <!-- select -->
-        <div class="col-md-4">
+        <div class="col-md-3">
           <select id="location" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
             <option selected>Select by location</option>
             <option value="1">Runda</option>
             <option value="2">Karen</option>
             <option value="3">Kilimani</option>
+            <option value="4">Kiambu Road</option>
+            <option value="5">Westlands</option>
+            <option value="6">Lavington</option>
+            <option value="7">Kitengela</option>
+            <option value="8">Spring Valley</option>
+            <option value="9">Muthaiga</option>
           </select>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
           <select id="price" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
             <option selected>Select by price</option>
             <option value="1">1m - 10m</option>
@@ -166,7 +198,7 @@
             <option value="3">More</option>
           </select>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
           <select id="rooms" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
             <option selected>Select by Rooms</option>
             <option value="1">1-3</option>
@@ -174,8 +206,18 @@
             <option value="3">7-10</option>
           </select>
         </div>
+        <div class="col-md-3">
+          <select id="price" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Select by size</option>
+            <option value="1">50 - 100sqm</option>
+            <option value="2">100 - 150sqm</option>
+            <option value="2">150 - 200sqm</option>
+            <option value="3">Above 200sqm</option>
+          </select>
+        </div>
         <!-- End of select -->
       </div>
+        </div>
       </div>
     </div>
     <!-- End filter section -->
@@ -187,43 +229,33 @@
          <!-- append product Items here -->
       </div>
         <!-- end -->
-        <div class="listing mb-3 container-fluid">
-          <h5 class="font-weight-bold">Recommended Available <span>Listings</span></h5>
-          <p class="underline">View details on some of the listings recommended for you</p>
-        </div>
-        <!-- continued gallery -->
-        <!-- Sercvices section -->
-        <div class="container-fluid">
-          <h4 class="text-center serve">Our Services.</h4>
-          <div class="container fluid">
-          <div class="row services">
-              <div class="col-md-4 text-center mt-5">
-                <img class="img-fluid draw" src="./Images/life.svg"/>
-                <h4>Lifestyle</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, deleniti.</p>
-              </div>
-              <div class="col-md-4 text-center mt-5">
-                <img class="img-fluid draw" src="./Images/sell.svg"/>
-                <h4 class="mt-5">Sell</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, deleniti.</p>
-              </div>
-              <div class="col-md-4 text-center mt-5">
-                <img class="img-fluid draw" src="./Images/consult.svg"/>
-                <h4 class="mt-4">Consultation</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, deleniti.</p>
-              </div>
-          </div>
-         </div>
-        </div>
-        <!-- End services -->
         </div>
       </div>
         <!-- CTO SECTION -->
         <div class="cto_section mt-5">
            <h2 class="text-center">Want to know the latest trends?</h2>
            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur recusandae voluptatem officia esse quam rerum veritatis cupiditate tempora quidem adipisci!</p>
-           <button class="btn">Read More</button>
+           <button class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
         </div>
+        <!-- MODAL SECTION -->
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-uppercase" id="exampleModalLabel">Read More</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam minus perferendis aliquid? Saepe hic enim obcaecati? Id dignissimos quis numquam!</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END OF MODAL SECTION -->
         <!-- end of CTO section -->
         <!-- FOOTER -->
         <div class="footer_section mt-5">

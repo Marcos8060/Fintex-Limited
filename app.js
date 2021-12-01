@@ -50,6 +50,18 @@ function displayProducts(products){
                     var location = products.filter(product => product.location == 'Karen');
                 }else if(selectedLocation == 3){
                     var location = products.filter(product => product.location == 'Kilimani');
+                }else if(selectedLocation == 4){
+                    var location = products.filter(product => product.location == 'Kiambu Road');
+                }else if(selectedLocation == 5){
+                    var location = products.filter(product => product.location == 'Westlands');
+                }else if(selectedLocation == 6){
+                    var location = products.filter(product => product.location == 'Lavington');
+                }else if(selectedLocation == 7){
+                    var location = products.filter(product => product.location == 'Kitengela');
+                }else if(selectedLocation == 8){
+                    var location = products.filter(product => product.location == 'Spring Valley');
+                }else if(selectedLocation == 9){
+                    var location = products.filter(product => product.location == 'Muthaiga');
                 }
                 displayProducts(location);
             })

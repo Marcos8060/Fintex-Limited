@@ -1,5 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Poppins:wght@200;600&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Poppins:wght@200;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&family=Montserrat:wght@200;400;700&family=Poppins:wght@200;600;700&display=swap');
 
 p,a{
     font-family: 'Montserrat', sans-serif;
@@ -15,6 +16,9 @@ body{
 /* navbar */
 .navbar-brand{
     font-weight: bold;
+    font-family: 'Jura', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .navbar{
     background: transparent;
@@ -42,11 +46,6 @@ span.logo{
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     font-size: 30px;
-}
-span.r{
-    color: crimson;
-    font-size: 16px;
-    font-weight: bold;
 }
 span.estate{
     color: crimson;font-weight: bold;
@@ -96,6 +95,9 @@ span.estate{
 
 /* End hero section */
 /* Gallery section */
+.gallery{
+    color: #24272F;
+}
 .list{
     color: crimson;
     font-weight: 600;
@@ -109,9 +111,6 @@ span.estate{
     font-weight: 600;
 }
 .category{
-    border-bottom: 2px solid gray;
-    width: 45%;
-    margin: auto;
     margin-bottom: 20px;
 }
 .container-fluid{
@@ -168,13 +167,14 @@ span.estate{
     color: crimson;
     font-weight: 600;
     font-size: 30px;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #24272F;
     width: 200px;
     margin: auto;
 }
 .services h4{
     font-weight: 600;
     margin-top: 20px;
+    color: #24272F;
 }
 .draw{
     width: 90px;
@@ -215,6 +215,13 @@ span.estate{
     background: black;
     opacity: 0.3;
     z-index: -1;
+}
+.modal{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.modal h5{
+    font-weight: 700;
 }
 /* footer section */
 .footer_section{

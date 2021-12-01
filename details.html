@@ -15,7 +15,7 @@
 <!-- description -->
 <div class="container mt-4">
     <div class="row">
-        <div class="col-8">
+        <div class="col sm-8">
             <h3>No Description</h3>
             <hr>
             <br>
@@ -30,7 +30,7 @@
                    <p>Garage space</p> 
                    <p>Year built</p> 
                 </div>
-                <div class="col-6">
+                <div class="col md-6">
                     <p>Basement</p>
                     <p>Loft</p>
                     <p>Heating</p>
@@ -52,34 +52,34 @@
               </div>
             </div>
              
-        <div class="col-4 mt-5">
+        <div class="col-sm-4 mt-5">
             <div class="form">
                 <p>Lucy Njenga</p>
                 <h2>Book a viewing</h2>
                 <form action="#"></form>
                 <div class="inputs p-3">
                     <h6>Name</h6>
-                    <input type="text"placeholder="" class="inpu" id="name">
+                    <input type="text"placeholder="" class="form-control" id="name">
                     <br>
                     <br>
                     <br>
-
                     <h6>Email Address</h6>
-                    <input type="text"placeholder="" class="inpu" id="email" required>
+                    <input type="text"placeholder="" class="form-control" id="email" required>
                     <br>
                     <br>
                     <br>
                     <h6>Phone number</h6>
-                    <input type="Number"placeholder="" class="inpu" id="number">
+                    <input type="Number"placeholder="" class="form-control" id="number">
                     <br>
                     <br>
                     <h6>Enter date available</h6>
-                    <input type="date" class="inpu" id="dates">
+                    <input id="dates" onchange="checkDate()" required class="form-control" type="date" data-date-format="yyyy-mm-dd" >
                     <br>
                     <br>
                     <input type="Submit"placeholder="Send" class="send" id="send" onclick=formInput();>
+                    <br>
+                    <br>
                     <div id="textx">
-
                     </div>
                 </div>
             </div>
@@ -111,15 +111,15 @@
 
 
 <!-- images -->
-<div class="container-fluid-mt2">
+<div class="container-fluid" id="img">
     <div class="row">
-        <div class="col-4">
+        <div class="col-sm-4 ">
             <img src="./img/bed.jpeg" alt="" width="100%">
         </div>
-        <div class="col-4">
+        <div class="col-sm-4">
             <img src="./img/curt.jpeg" alt="" width="100%">
         </div>
-        <div class="col-4">
+        <div class="col-sm-4">
             <img src="./img/tub.jpeg" alt="" width="100%">
         </div>
 
@@ -127,14 +127,14 @@
 </div>
 
 <!-- footer -->
-<div class="container-fluid mt-5">
+<div class="container-fluid mt-5" id="footer">
     <div class="items">
         <div class="row mt-5">
-            <div class="col-4 my-2">
+            <div class="col-sm-3 my-2">
                 <h2>About</h2>
                <p>Fintex-limited is one of the best platforms to to find you the best suited homes. We have building trust over the years with quality services. Good agent and client relationship to ensure that we have your needs at interest.  </p>
             </div>
-            <div class="col-2">
+            <div class="col-sm-2 md-2">
                 <h2>Menu</h2>
                 <ul>
                     <li>Home</li>
@@ -144,19 +144,19 @@
                     <li>Contact Us</li>
                 </ul>
             </div>
-            <div class="col-2">
+            <div class="col-sm-2">
                 <h2>Follow us</h2>
             </div>
-            <div class="col-4">
+            <div class="col-sm-4">
                 <h2>Newsetter</h2>
                 <form action="">
-                    <input class="inp"type="text" placeholder="Name">
+                    <input class="form-control"type="text" placeholder="Name">
                     <br>
                     <br>
-                    <input class="inp"type="text" placeholder="Email">
+                    <input class="form-control"type="text" placeholder="Email">
                     <br>
                     <br>
-                    <input class="submit"type="submit" placeholder="Subscribe">
+                    <input class="form-control" id="submit" type="submit" placeholder="Subscribe">
                     <br>
                     <br>
                     <br>

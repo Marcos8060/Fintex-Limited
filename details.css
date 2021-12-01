@@ -2,7 +2,7 @@
   background-color: #252933;
   color: white;
   align-items: center;
-  height: 450px;
+  height: 550px;
   padding: 30px;
 }
 #inpu {
@@ -18,7 +18,7 @@
 }
 
 /* footer */
-.container-fluid {
+#footer {
   background-color: #252933;
   color: #3174cc;
 }
@@ -27,7 +27,7 @@
   display: flex;
   justify-content: space-between;
 }
-.col-2 ul li {
+.col-sm-2 ul li {
   list-style: none;
 }
 h2 {
@@ -38,7 +38,7 @@ h2 {
   height: 30px;
   border: none;
 }
-.submit {
+#submit {
   width: 250px;
   color: #3174cc;
   border: double;

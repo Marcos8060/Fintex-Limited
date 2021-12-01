@@ -14,9 +14,11 @@ function displayProducts(products){
                 <div class="card-body">
                     <div class="content">
                     <h5 class="card-title price">ksh${product.price}</h5>
+                    <a href="https://www.w3schools.com/" target="_blank">
                     <img class="img-fluid"
                         src="https://img.icons8.com/material-outlined/50/fa314a/filled-like.png"
                     />
+                    </a>
                     </div>
                     <div class="info">
                     <p class="card-text">${product.rooms}Bdrm</p>
@@ -78,6 +80,7 @@ function displayProducts(products){
                 console.log(price);
                 displayProducts(price);
             })
+
             $('#rooms').on('change',function(){
                 var selectedRooms = this.value;
 
@@ -85,8 +88,24 @@ function displayProducts(products){
                     var room = products.filter(product => product.rooms  <= 3 );
                 }else if(selectedRooms == 2){
                     var room = products.filter(product => product.rooms  > 3 && product.rooms <= 6 );
-                }else if(selectedRooms){
+                }else if(selectedRooms == 3){
                     var room = products.filter(product => product.rooms  > 6 && product.rooms <= 10 );
                 }
                 displayProducts(room);
             })
+
+            $('#size').on('change',function(){
+                var selectedSize = this.value;
+
+                if(selectedSize == 1){
+                    var size = products.filter(product => product.size <= 100);
+               }else if(selectedSize == 2){
+                    var size = products.filter(product => product.size >= 111 && product.size <= 150);
+                }else if(selectedSize == 3){
+                    var size = products.filter(product => product.size >= 151 && product.size <= 200);
+                }else if(selectedSize = 4){
+                    var size = products.filter(product => product.size >= 201);
+                }
+                displayProducts(size);
+            })
+

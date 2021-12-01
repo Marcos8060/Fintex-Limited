@@ -151,6 +151,7 @@ span.estate{
 }
 .card{
     box-shadow: 0px 0px 4px 2px gray;
+    height: 280px;
 }
 .listing h5{
     font-weight: 700;

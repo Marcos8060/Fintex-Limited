@@ -1,15 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&family=Lobster&family=Red+Hat+Mono:wght@300&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 .form {
   background-color: #252933;
   color: white;
   align-items: center;
-  height: 550px;
+  height: 600px;
   padding: 30px;
 }
-#inpu {
-  width: 250px;
-  border: none;
-  height: 30px;
-}
+
 .send {
   border: none;
   color: white;

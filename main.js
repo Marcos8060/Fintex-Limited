@@ -15,6 +15,6 @@ function checkDate() {
     var selectedDate = new Date(selectedText);
     var now = new Date();
     if (selectedDate < now) {
-     alert("Date must be in the future");
+     alert("Cannot enter current or past dates");
     }
   }

@@ -163,6 +163,30 @@ span.estate{
     border-bottom: 1px solid gray;
     width: 30%;
 }
+/* Details section */
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-weight: 600;
+}
+.accordion-body li::marker{
+    color: crimson;
+    font-size: 30px;
+}
+.accordion{
+    box-shadow: 0px 0px 4px 1px gray;
+}
+.accordion-button{
+    font-weight: 600;
+    color: black;
+}
+.carousel-item img{
+    width: 400px;
+    height: 400px;
+}
+/* End of details section */
 /* CTO */
 .cto_section {
     font-family: 'Montserrat', sans-serif;

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=MonteCarlo&family=Montserrat:wght@300;400;500;600&family=Poppins:wght@200&family=Roboto:wght@500&display=swap');
+
+body{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'MonteCarlo', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background: #E5E5E5;
+}
+.underline{
+    border-bottom: 2px solid black;
+    width: 500px;
+    margin: auto;
+}
+span{
+    color: crimson;
+}
+/* footer section */
+.footer_section{
+    background: #24272F;
+    color: white;
+    padding: 10px;
+}
+.footer_section h6{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: blue;
+    padding-top: 20px;
+}
+.footer_section li::marker{
+    font-size: 30px;
+}
+.icons{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.icons img{
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.footer_section input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #E5E5E5;
+}
+.footer_section button{
+    width: 100%;
+    text-align: center;
+    background: transparent;
+    border-color: blue;
+    height: 38px;
+    color: white;
+    text-transform: uppercase;
+}
+.footer_section button:hover{
+    background: blue;
+    transition: 2s;
+    font-weight: 700;
+}

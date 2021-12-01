@@ -1,7 +1,7 @@
 // GET VARIABLES FOR ALL INPUT FIELDS
-const locationInput = document.getElementById('location');
-const priceInput = document.getElementById('price');
-const roomInput = document.getElementById('room');
+// const locationInput = document.getElementById('location');
+// const priceInput = document.getElementById('price');
+// const roomInput = document.getElementById('room');
 const productItems = document.querySelector('.productItems');
 
 products.forEach((product)=>{
@@ -39,4 +39,25 @@ products.forEach((product)=>{
             </div>
         </div>
     `
+})
+
+$('#location').on('change',function(){
+
+    var selected = this.value;
+    
+    var location = products.filter(product => product.location != 'Runda')
+
+    console.log(location);
+})
+$('#price').on('change',function(){
+    var selectedPrice = this.value;
+
+    if(selectedPrice == 1){
+        var price = products.filter(product => product.price <= 10000000);
+    }else if(selectedPrice == 2){
+        var price = products.filter(product => product.price  > 11000000 && product.price <=20000000);
+    }else if(selectedPrice == 3){
+        var price = products.filter(product => product.price  > 21000000 );
+    }
+    console.log(price);
 })

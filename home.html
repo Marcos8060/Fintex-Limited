@@ -15,6 +15,7 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="./css/home.css" />
     <title>Fintex Limited</title>
   </head>
@@ -57,7 +58,6 @@
     </nav>
     <!-- End of nav section -->
     <!-- Hero section -->
-    <div class="hero_section">
     <div
       id="carouselExampleCaptions"
       class="carousel slide"
@@ -142,22 +142,40 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    </div>
     <!-- End of Hero section -->
     <!-- Gallery Section -->
     <!-- filter section -->
-    <div class="container mt-4 filter">
+    <div class="container-fluid mt-4 filter">
       <h5 class="text-center category"><span>Filter</span> based on the following <span>Categories.</span></h5>
+      <div class="container">
       <div class="row">
+        <!-- select -->
         <div class="col-md-4">
-          <input id="location" type="text" class="form-control" placeholder="Location...">
+          <select id="location" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Select by location</option>
+            <option value="1">Runda</option>
+            <option value="2">Karen</option>
+            <option value="3">Kilimani</option>
+          </select>
         </div>
         <div class="col-md-4">
-          <input id="price" type="text" class="form-control" placeholder="Price...">
+          <select id="price" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Select by price</option>
+            <option value="1">1m - 10m</option>
+            <option value="2">11m - 20m</option>
+            <option value="3">More</option>
+          </select>
         </div>
         <div class="col-md-4">
-          <input id="room" type="text" class="form-control" placeholder="Rooms...">
+          <select id="rooms" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Select by Rooms</option>
+            <option value="1">1-3</option>
+            <option value="2">4-6</option>
+            <option value="3">7-10</option>
+          </select>
         </div>
+        <!-- End of select -->
+      </div>
       </div>
     </div>
     <!-- End filter section -->
@@ -252,13 +270,13 @@
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img src="./Images/9.jpg" class="d-block w-100" alt="...">
+                      <img src="./Images/9.jpg" class="d-block w-100 img-fluid" alt="...">
                     </div>
                     <div class="carousel-item">
-                      <img src="./Images/img5.jpg" class="d-block w-100" alt="...">
+                      <img src="./Images/img5.jpg" class="d-block w-100 img-fluid" alt="...">
                     </div>
                     <div class="carousel-item">
-                      <img src="./Images/img12.jpg" class="d-block w-100" alt="...">
+                      <img src="./Images/img12.jpg" class="d-block w-100 img-fluid" alt="...">
                     </div>
                   </div>
                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

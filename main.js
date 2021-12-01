@@ -7,7 +7,7 @@ function formInput(){
 if(names.value == ''){
     alert("Please enter your name")
 }else{
-    document.getElementById("textx").innerHTML=(`Thank you ${names.value} for reaching out to us. We will contact you on the ${dates.value} for your tour on the house`);
+    document.getElementById("textx").innerHTML=(`Thank you ${names.value} for reaching out to us. We will contact you on the ${dates.value} for your tour on the house with an agent assigned to you.`);
 }
 }
 function checkDate() {
@@ -16,5 +16,9 @@ function checkDate() {
     var now = new Date();
     if (selectedDate < now) {
      alert("Cannot enter current or past dates");
+    }
+
+    document.getElementById("inputs").onsubmit = function(){
+        location.reload(true);
     }
   }

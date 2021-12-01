@@ -169,21 +169,18 @@ span.estate{
     font-weight: 600;
     font-size: 30px;
     border-bottom: 3px solid black;
+    width: 200px;
+    margin: auto;
 }
-.service{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border: 5px solid crimson;
-    width: 150px;
-    height: 80px;
-}
-.service h4{
+.services h4{
     font-weight: 600;
+    margin-top: 20px;
 }
-.service img{
-    height: 60px;
+.draw{
+    width: 90px;
 }
+
+
 /* End of details section */
 /* CTO */
 .cto_section {

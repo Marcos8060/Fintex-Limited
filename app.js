@@ -1,3 +1,7 @@
+$(window).scroll(function(){
+    $('nav').toggleClass('scrolled',$(this).scrollTop() > 50);
+});
+
 const productItems = document.querySelector('.productItems');
 
 function displayProducts(products){

@@ -177,14 +177,11 @@ span.estate{
 }
 .accordion{
     box-shadow: 0px 0px 4px 1px gray;
+    background: blue;
 }
 .accordion-button{
     font-weight: 600;
     color: black;
-}
-.carousel-item img{
-    width: 400px;
-    height: 400px;
 }
 /* End of details section */
 /* CTO */

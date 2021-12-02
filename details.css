@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&family=Lobster&family=Red+Hat+Mono:wght@300&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+/* navbar */
+.bgColor.scrolled {
+  background: black;
+  opacity: 0.6;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-family: "Jura", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  background: transparent;
+}
+.navbar a {
+  color: white;
+}
+.navbar ul a {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.navbar ul a:hover {
+  color: crimson;
+}
+li a {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: black;
+}
+span.logo {
+  color: crimson;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+}
+span.estate {
+  color: crimson;
+  font-weight: bold;
+}
+
+/* end nav */
+#house {
+  height: 80vh;
+}
+.form {
+  background-color: #252933;
+  color: white;
+  align-items: center;
+  padding: 30px;
+}
+
+.send {
+  border: none;
+  color: white;
+  background-color: #f5495d;
+  width: 70px;
+}
+
+/* footer */
+#footer {
+  background-color: #24272f;
+  color: white;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+}
+.col-md-3 ul li {
+  list-style: none;
+}
+h2 {
+  text-transform: uppercase;
+}
+.inp {
+  width: 250px;
+  height: 30px;
+  border: none;
+}
+#submit {
+  width: 100%;
+  color: white;
+  border-color: blue;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: transparent;
+}
+.submit::placeholder {
+  color: white;
+}
+#submit:hover {
+  background-color: blue;
+  transition: 2s;
+  color: white;
+}

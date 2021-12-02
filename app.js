@@ -50,18 +50,18 @@ function displayProducts(products){
         productItems.innerHTML += `
                 <div class="col-md-3">
                 <div class="card mb-3">
+                <a href="more.html">
                 <img
                     src="${product.imgSrc}"
                     class="card-img-top img-fluid"
                     alt="..."
                 />
+                </a>
                 <div class="card-body">
                     <div class="content">
                     <h5 class="card-title price">ksh${product.price}</h5>
                     <a href="details.html" target="_blank">
-                    <img class="img-fluid"
-                        src="https://img.icons8.com/material-outlined/50/fa314a/filled-like.png"
-                    />
+                    <img class="img-fluid" src="https://img.icons8.com/ios-filled/50/fa314a/plus.png"/>
                     </a>
                     </div>
                     <div class="info">

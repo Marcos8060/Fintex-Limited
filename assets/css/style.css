@@ -5,7 +5,14 @@
 body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
- 
+    background: #E5E5E5;
+}
+.card{
+  height: 500px;
+  text-align: center;
+}
+.card li{
+  list-style: none;
 }
 a {
   color: #D63B3B;;

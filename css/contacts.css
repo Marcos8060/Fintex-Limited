@@ -6,7 +6,7 @@ p,a{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
-h1{
+h1,h3,li,h6{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
@@ -95,71 +95,20 @@ header {
     opacity: 0.5;
     z-index: 1;
   }
-  
-
-
 /* CONTACT FORM */
-
-.contact4 {
-  font-family: 'Poppins', sans-serif;
-	color: #8d97ad;
-  font-weight: 300;
-
-}
-
-.contact4 h1, .contact4 h2, .contact4 h3, .contact4 h4, .contact4 h5, .contact4 h6 {
-  color: #3e4555;
-}
-
-.contact4 .font-weight-medium {
-	font-weight: 500;
-}
-
-.contact4 .form-control {
-  background: transparent;
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  
-}
-
-.contact4 .form-control:focus {
-  border-color: #ffffff;
-}
-
-.contact4 input::-webkit-input-placeholder,
-.contact4 textarea::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.contact4 input:-ms-input-placeholder,
-.contact4 textarea:-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.contact4 input::placeholder,
-.contact4 textarea::placeholder {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.contact4 .right-image {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  top: 0;
-}
-
-.contact4.bg-info {
-    background-color: #24272F !important;
-    position: absolute;
-    top: 2em;
-}
-
-.contact4 .text-inverse {
-    color: #3e4555 !important;
-}
-
-
-
-
+   .contact{
+     background: #24272F;
+   }
+   .contact input{
+     margin-bottom: 10px;
+   }
+   .contact textarea{
+     margin-top: 10px;
+   }
+   .btn{
+     background: crimson;
+     width: 100%;
+   }
 /* footer section */
 .footer_section{
     background: #24272F;
@@ -203,27 +152,4 @@ header {
     background: blue;
     transition: 2s;
     font-weight: 700;
-}
-
-
-
-
-@media (min-width: 1024px) {
-	.contact4 .contact-box {
-    padding: 80px 105px 80px 0px;
-	}
-}
-
-@media (max-width: 767px) {
-	.contact4 .contact-box {
-    padding-left: 15px;
-    padding-right: 15px;
-	}
-}
-
-@media (max-width: 1023px) {
-	.contact4 .right-image {
-			position: relative;
-			bottom: -95px;
-	}
 }

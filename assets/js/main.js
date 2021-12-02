@@ -1,9 +1,4 @@
-/**
-* Template Name: Plato - v4.7.0
-* Template URL: https://bootstrapmade.com/plato-responsive-bootstrap-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
@@ -32,7 +27,10 @@
       }
     }
   }
-
+  // nav scroll
+  $(window).scroll(function(){
+    $('nav').toggleClass('scrolled',$(this).scrollTop() > 50);
+});
   /**
    * Easy on scroll event listener 
    */

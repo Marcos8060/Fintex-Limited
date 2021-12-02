@@ -1,10 +1,12 @@
 
-body {
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
-  background-color: #f4f4f4;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Poppins:wght@200;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&family=Montserrat:wght@200;400;700&family=Poppins:wght@200;600;700&display=swap');
 
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+ 
+}
 a {
   color: #D63B3B;;
   text-decoration: none;
@@ -20,6 +22,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #D63B3B;
 }
 
+#topimage{
+  margin-top: 0%;
+}
 /* .wrap {
   max-width: 1440px;
   margin: auto;

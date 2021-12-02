@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="./css/home.css" />
+    <title>Fintex Limited</title>
+  </head>
+  <body>
+    <!-- Nav section -->
+    <nav class="navbar navbar-expand-lg fixed-top bgColor">
+      <div class="container-fluid">
+        <a class="navbar-brand text-uppercase" href="#">
+          <img class="img-fluid logo" src="./Images/logo.png" alt="logo">
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of nav section -->
+    <!-- Hero section -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item dark active">
+          <img src="./Images/img1.jpg" class="d-block w-100" alt="home" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Modern Residence</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+              ea voluptates exercitationem voluptatem. Porro fugit ea id ad
+              atque est.
+            </p>
+            <button class="btn">Get a quote</button>
+          </div>
+        </div>
+        <div class="carousel-item dark">
+          <img src="./Images/img2.jpg" class="d-block w-100" alt="home" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Modern Residence</h5>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi
+              aliquid ducimus cumque voluptas ea tempore quibusdam,
+              exercitationem beatae deleniti incidunt.
+            </p>
+            <button class="btn">Get a quote</button>
+          </div>
+        </div>
+        <div class="carousel-item dark">
+          <img src="./Images/img3.jpg" class="d-block w-100" alt="home" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Modern Residence</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+              numquam quod labore veniam nesciunt itaque placeat temporibus
+              commodi ad voluptatem.
+            </p>
+            <button class="btn">Get a quote</button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- End of Hero section -->
+    <!-- Services section -->
+    <div class="container-fluid">
+      <h4 class="text-center serve mt-5">Our Services.</h4>
+      <div class="container fluid">
+      <div class="row services">
+          <div class="col-md-4 text-center mt-5">
+            <img class="img-fluid draw" src="./Images/life.svg"/>
+            <h4>Lifestyle</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, deleniti.</p>
+          </div>
+          <div class="col-md-4 text-center mt-5">
+            <img class="img-fluid draw" src="./Images/sell.svg"/>
+            <h4 class="mt-5">Buy/Sell</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, deleniti.</p>
+          </div>
+          <div class="col-md-4 text-center mt-5">
+            <img class="img-fluid draw" src="./Images/consult.svg"/>
+            <h4 class="mt-4">Consultation</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, deleniti.</p>
+          </div>
+      </div>
+     </div>
+    </div>
+    <!-- End of services section -->
+    <!-- Gallery Section -->
+    <div class="container-fluid mt-4 filter">
+      <h3 class="text-center mb-4">Our <span class="gallery">Gallery</span></h3>
+      <h5 class="text-center category"><span>Filter</span> based on the following <span>Categories.</span></h5>
+      <div class="container">
+        <div class="color">
+      <div class="row">
+        <!-- Filter section -->
+        <!-- select -->
+        <div class="col-md-3">
+          <select id="location" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Select by location</option>
+            <option value="1">Runda</option>
+            <option value="2">Karen</option>
+            <option value="3">Kilimani</option>
+            <option value="4">Kiambu Road</option>
+            <option value="5">Westlands</option>
+            <option value="6">Lavington</option>
+            <option value="7">Kitengela</option>
+            <option value="8">Spring Valley</option>
+            <option value="9">Muthaiga</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <select id="price" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Select by price</option>
+            <option value="1">1m - 10m</option>
+            <option value="2">11m - 20m</option>
+            <option value="3">More</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <select id="rooms" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Select by Rooms</option>
+            <option value="1">1-3</option>
+            <option value="2">4-6</option>
+            <option value="3">7-10</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <select id="size" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Select by size</option>
+            <option value="1">50 - 100sqm</option>
+            <option value="2">100 - 150sqm</option>
+            <option value="3">150 - 200sqm</option>
+            <option value="4">Above 200sqm</option>
+          </select>
+        </div>
+        <!-- End of select -->
+      </div>
+        </div>
+      </div>
+    </div>
+    <!-- End filter section -->
+    <div class="container-fluid mt-3">
+      <h5 class="font-weight-bold">New <span class="list">Listings...</span></h5>
+    </div>
+    <div class="container-fluid">
+      <div class="row productItems">
+         <!-- append product Items here -->
+      </div>
+        <!-- end -->
+        </div>
+      </div>
+        <!-- CTO SECTION -->
+        <div class="cto_section mt-5">
+           <h2 class="text-center">Want to know the latest trends?</h2>
+           <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur recusandae voluptatem officia esse quam rerum veritatis cupiditate tempora quidem adipisci!</p>
+           <button class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+        </div>
+        <!-- MODAL SECTION -->
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-uppercase" id="exampleModalLabel">Read More</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam minus perferendis aliquid? Saepe hic enim obcaecati? Id dignissimos quis numquam!</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END OF MODAL SECTION -->
+        <!-- end of CTO section -->
+        <!-- FOOTER -->
+        <div class="footer_section mt-5">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-3">
+                <h6>About</h6>
+                <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed perspiciatis delectus optio quasi. Harum, aliquid.</p>
+              </div>
+              </div>
+              <!-- end -->
+              <div class="col-md-3">
+                <h6>Menu</h6>
+                <div>
+                <ul>
+                  <li>Home</li>
+                  <li>Search</li>
+                  <li>Blog</li>
+                  <li>Contact</li>
+                </ul>
+              </div>
+              </div>
+              <!-- end -->
+              <div class="col-md-3">
+                <h6>Follow Us</h6>
+                <div class="icons">
+                <img class="img-fluid" src="https://img.icons8.com/ios-glyphs/50/ffffff/facebook-new.png"/>
+                <img class="img-fluid" src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new.png"/>
+                <img class="img-fluid" src="https://img.icons8.com/material-rounded/48/ffffff/youtube-play.png"/>
+                <img class="img-fluid" src="https://img.icons8.com/ios-glyphs/48/ffffff/twitter.png"/>
+              </div>
+              </div>
+              <!-- end -->
+              <div class="col-md-3 text-center">
+                <h6>Newsletter</h6>
+                <input type="text" class="form-control" placeholder="Name...">
+                <input type="email" class="form-control" placeholder="Email...">
+                <button>subscribe</button>
+              </div>
+              <!-- end -->
+            </div>
+          </div>
+        </div>
+        <!-- END FOOTER -->
+        
+        <script src="products.js"></script>
+        <script src="app.js"></script>
+  </body>
+</html>

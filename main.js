@@ -12,9 +12,7 @@ if(names.value == ''){
 names.value = "";
 email.value = "";
 number.value = "";
-dates.value = ""
-
-
+dates.value = "";
 };
 function checkDate() {
     var selectedText = document.getElementById("dates").value;

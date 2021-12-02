@@ -2,6 +2,46 @@ $(window).scroll(function(){
     $('nav').toggleClass('scrolled',$(this).scrollTop() > 50);
 });
 
+// contact section
+$('#form').submit(function(e){
+    e.preventDefault();
+
+     const nameInput = $('#name').val();
+     const emailInput = $('#email').val();
+
+     if(nameInput && emailInput){
+        //  remove alert
+        clearALert();
+        //  create alert
+        const p = document.createElement('p');
+        // add class
+        p.className = 'alert';
+        // append text
+        p.appendChild(document.createTextNode(`Thank you ${nameInput} for reaching out to us, we will get back to you as soon as possible.`))
+        // get parent
+        const searchContainer = document.querySelector('.searchContainer');
+        // search box
+        const search = document.querySelector('.search');
+        // insert text
+        searchContainer.insertBefore(p,search);
+     }else{
+         alert('Please fill in all the required fields');
+     }
+    //  clear input fields after submit
+     $('#name').val('');
+     $('#email').val('');
+
+     setTimeout(()=>{
+         clearALert();
+     },4000);
+});
+// end of contact section
+function clearALert(){
+    const currentAlert = document.querySelector('.alert');
+    if(currentAlert){
+        currentAlert.remove();
+    }
+}
 const productItems = document.querySelector('.productItems');
 
 function displayProducts(products){

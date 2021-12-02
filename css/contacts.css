@@ -96,6 +96,12 @@ header {
     z-index: 1;
   }
 /* CONTACT FORM */
+.alert{
+    background: crimson;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
    .contact{
      background: #24272F;
    }

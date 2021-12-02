@@ -18,7 +18,7 @@ function displayProducts(products){
                 <div class="card-body">
                     <div class="content">
                     <h5 class="card-title price">ksh${product.price}</h5>
-                    <a href="https://www.w3schools.com/" target="_blank">
+                    <a href="details.html" target="_blank">
                     <img class="img-fluid"
                         src="https://img.icons8.com/material-outlined/50/fa314a/filled-like.png"
                     />

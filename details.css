@@ -48,7 +48,9 @@ span.estate {
 }
 
 /* end nav */
-
+#house {
+  height: 70vh;
+}
 .form {
   background-color: #252933;
   color: white;

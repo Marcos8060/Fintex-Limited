@@ -276,4 +276,11 @@ span.estate{
     transition: 2s;
     font-weight: 700;
 }
-
+@media (max-width: 768px) {
+    .carousel-inner{
+        height: 45vh;
+    }
+    .carousel-inner img{
+        height: 45vh;
+    }
+}

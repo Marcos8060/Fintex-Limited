@@ -195,7 +195,7 @@ span.estate{
 .cto_section {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
-    background-image: url(/Images/cto1.jpg);
+    background-image: url(../Images/cto1.jpg);
     height: 70vh;
     background-size: 100% 100%;
     position: relative;

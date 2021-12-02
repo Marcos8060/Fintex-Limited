@@ -9,7 +9,13 @@ if(names.value == ''){
 }else{
     document.getElementById("textx").innerHTML=(`Thank you ${names.value} for reaching out to us. We will contact you on the ${dates.value} for your tour on the house with an agent assigned to you.`);
 }
-}
+names.value = "";
+email.value = "";
+number.value = "";
+dates.value = ""
+
+
+};
 function checkDate() {
     var selectedText = document.getElementById("dates").value;
     var selectedDate = new Date(selectedText);

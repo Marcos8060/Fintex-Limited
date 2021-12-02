@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&family=Lobster&family=Red+Hat+Mono:wght@300&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.form {
+  background-color: #252933;
+  color: white;
+  align-items: center;
+  height: 600px;
+  padding: 30px;
+}
+
+.send {
+  border: none;
+  color: white;
+  background-color: #f5495d;
+  width: 70px;
+}
+
+/* footer */
+#footer {
+  background-color: #252933;
+  color: #3174cc;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+}
+.col-sm-2 ul li {
+  list-style: none;
+}
+h2 {
+  text-transform: uppercase;
+}
+.inp {
+  width: 250px;
+  height: 30px;
+  border: none;
+}
+#submit {
+  width: 250px;
+  color: #3174cc;
+  border: double;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #252933;
+}
+.submit::placeholder {
+  color: #3174cc;
+}

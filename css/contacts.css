@@ -1,0 +1,229 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Poppins:wght@200;600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Poppins:wght@200;600;700&display=swap');
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+
+p,a{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #E5E5E5;
+}
+/* navbar */
+.navbar-brand{
+    font-weight: bold;
+}
+.navbar{
+    background: transparent;
+}
+.navbar a{
+    color: white;
+}
+.navbar ul{
+    margin-left: 200px;
+}
+.navbar ul a{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.navbar ul a:hover{
+    color: crimson;
+}
+li a{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+}
+span.logo{
+    color: crimson;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+span.r{
+    color: crimson;
+    font-size: 16px;
+    font-weight: bold;
+}
+span.estate{
+    color: crimson;font-weight: bold;
+
+}
+/* End of navbar section */
+
+/*hero section */
+header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  
+
+
+/* CONTACT FORM */
+
+.contact4 {
+  font-family: 'Poppins', sans-serif;
+	color: #8d97ad;
+  font-weight: 300;
+
+}
+
+.contact4 h1, .contact4 h2, .contact4 h3, .contact4 h4, .contact4 h5, .contact4 h6 {
+  color: #3e4555;
+}
+
+.contact4 .font-weight-medium {
+	font-weight: 500;
+}
+
+.contact4 .form-control {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  
+}
+
+.contact4 .form-control:focus {
+  border-color: #ffffff;
+}
+
+.contact4 input::-webkit-input-placeholder,
+.contact4 textarea::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact4 input:-ms-input-placeholder,
+.contact4 textarea:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact4 input::placeholder,
+.contact4 textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact4 .right-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.contact4.bg-info {
+    background-color: #24272F !important;
+    position: absolute;
+    top: 2em;
+}
+
+.contact4 .text-inverse {
+    color: #3e4555 !important;
+}
+
+
+
+
+/* footer section */
+.footer_section{
+    background: #24272F;
+    color: white;
+    padding: 10px;
+}
+.footer_section h6{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: blue;
+    padding-top: 20px;
+}
+.footer_section li::marker{
+    font-size: 30px;
+}
+.icons{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.icons img{
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.footer_section input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #E5E5E5;
+}
+.footer_section button{
+    width: 100%;
+    text-align: center;
+    background: transparent;
+    border-color: blue;
+    height: 38px;
+    color: white;
+    text-transform: uppercase;
+}
+.footer_section button:hover{
+    background: blue;
+    transition: 2s;
+    font-weight: 700;
+}
+
+
+
+
+@media (min-width: 1024px) {
+	.contact4 .contact-box {
+    padding: 80px 105px 80px 0px;
+	}
+}
+
+@media (max-width: 767px) {
+	.contact4 .contact-box {
+    padding-left: 15px;
+    padding-right: 15px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.contact4 .right-image {
+			position: relative;
+			bottom: -95px;
+	}
+}

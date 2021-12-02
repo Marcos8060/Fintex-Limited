@@ -2,12 +2,59 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+/* navbar */
+.bgColor.scrolled {
+  background: black;
+  opacity: 0.6;
+}
 
+.logo {
+  height: 100px;
+  width: 100px;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-family: "Jura", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  background: transparent;
+}
+.navbar a {
+  color: white;
+}
+.navbar ul a {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.navbar ul a:hover {
+  color: crimson;
+}
+li a {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: black;
+}
+span.logo {
+  color: crimson;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+}
+span.estate {
+  color: crimson;
+  font-weight: bold;
+}
+
+/* end nav */
+#house {
+  height: 70vh;
+}
 .form {
   background-color: #252933;
   color: white;
   align-items: center;
-  height: 600px;
   padding: 30px;
 }
 
@@ -20,15 +67,15 @@
 
 /* footer */
 #footer {
-  background-color: #252933;
-  color: #3174cc;
+  background-color: #24272f;
+  color: white;
 }
 
 .items {
   display: flex;
   justify-content: space-between;
 }
-.col-sm-2 ul li {
+.col-md-3 ul li {
   list-style: none;
 }
 h2 {
@@ -40,13 +87,18 @@ h2 {
   border: none;
 }
 #submit {
-  width: 250px;
-  color: #3174cc;
-  border: double;
+  width: 100%;
+  color: white;
+  border-color: blue;
   text-transform: uppercase;
   font-weight: bold;
-  background-color: #252933;
+  background-color: transparent;
 }
 .submit::placeholder {
-  color: #3174cc;
+  color: white;
+}
+#submit:hover {
+  background-color: blue;
+  transition: 2s;
+  color: white;
 }

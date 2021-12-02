@@ -22,3 +22,6 @@ function checkDate() {
         location.reload(true);
     }
   }
+  $(window).scroll(function(){
+    $('nav').toggleClass('scrolled',$(this).scrollTop() > 50);
+});

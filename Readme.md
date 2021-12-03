@@ -104,7 +104,3 @@ We are self-driven and passionate about Software development. We take each day a
 
 
 Github - [Fintex Real Estate Repository](https://github.com/Marcos8060/Fintex-Real-Estate-Website.git)
-
-
-
-[Go Back to the top](#delani-studio)

@@ -62,6 +62,10 @@ here is the link to the site https://fintexrealestate.netlify.app/
   
 * JQuery - which was used to add some functionality.
 
+## Design
+
+![Design](./LANDING PAGE.png)
+
 
 ## Reference
 * Materialize CSS

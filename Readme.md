@@ -1,7 +1,7 @@
 # Fintex Real Estate
 
 ##### By Group 4 [marcos,venesa,george,erick]
-### Delani studio's official website.
+
 
 ## Table of Content
 

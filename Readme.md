@@ -64,7 +64,7 @@ here is the link to the site https://fintexrealestate.netlify.app/
 
 ## Design
 
-![Design](./LANDING PAGE.png)
+![Design](./Images/design.png)
 
 
 ## Reference

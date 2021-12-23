@@ -28,15 +28,13 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+
 .navbar{
     background: transparent;
 }
 .navbar a{
     color: white;
 }
-/* .navbar ul{
-    margin-left: 200px;
-} */
 .navbar ul a{
     margin-left: 30px;
     margin-right: 30px;
